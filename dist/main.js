@@ -139,7 +139,7 @@ class ThermostatCard extends HTMLElement {
     this._config = cardConfig;
   }
 }
-customElements.define('thermostat-card', ThermostatCard);
+customElements.define('thermostat-card-test', ThermostatCard);
 
 function deepClone(value) {
   if (!(!!value && typeof value == 'object')) {
